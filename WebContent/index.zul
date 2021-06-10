@@ -1,0 +1,30 @@
+<?page title="Game" style="main-bg"?>
+<?style src="css/style.css"?>
+<zk >
+ <window hflex="1" height="900px" title=""  border="none" apply="Controller.CtrIndex"  >
+
+		<grid oddRowSclass="none" height="500px"  id="formgrid" sclass="login-container" style="background-color: #424242; text-align" fixedLayout="true">
+		
+			<rows style="background-color: #424242;" >
+				<row style="background-color: #424242; border-color: #424242;" class="form-group ">
+					<label value="Tricky Game" sclass="text-whitesmoke t-align"/>
+				</row>
+				<row style="background-color: #424242; border-color: #424242;" >
+					<textbox id="play1"  hflex="1" constraint="no empty" placeholder="Name player 1" sclass="form-control text-whitesmoke"/>
+				</row>
+				<row style="background-color: #424242; border-color: #424242;">
+					<textbox id="play2"   constraint="no empty" hflex="1"  placeholder="Name player 2" sclass="form-control text-whitesmoke"/>
+				</row>
+				<row style="background-color: #424242; border-color: #424242;">
+					<textbox id="bSize"   constraint="no empty" hflex="1"  placeholder="Board size" sclass="form-control text-whitesmoke" />
+				</row>
+				<row style="background-color: #424242; border-color: #424242;">
+					<button id="startButton"  label="Start Game" sclass=" form-button button-l margin-b"/>
+				</row>
+
+			</rows>
+		</grid>
+
+ </window>
+</zk>
+

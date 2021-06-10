@@ -1,0 +1,44 @@
+<?page title="Game" contentType="text/html;charset=UTF-8"?>
+<?style src="css/style.css"?>
+<zk>
+	<window title="" border="normal" apply="Controller.CtrDashboard" width="Auto">
+		<grid id="gridGame" width="auto">
+			<columns>
+				<column label="Tricky game" style="background-color: #424242; border-color: #424242;"/>
+			</columns>
+			<rows>
+				<row>	
+				
+				</row>
+			</rows>
+		</grid>
+		<grid>
+		<columns>
+			<column label=""/>
+		</columns>
+		<rows style="background-color: #424242;">
+			<row style="background-color: #424242;">	
+				<button id="reset" label="Reset game" onClick="" sclass="form-button button-l margin-b text-aling " />
+				<button id="exit" label="Exit game" onClick="" sclass="form-button button-l margin-b text-aling"/>
+			</row>
+		</rows>
+	</grid>
+	<grid id="record">
+	
+		<auxhead ><auxheader colspan="5" label="Game history" style="background-color: #424242;  border-color: white;"/> </auxhead>
+		<columns >
+			<column label="Player 1" style="background-color: #424242;  border-color: #424242;"/>
+			<column label="Player 2" style="background-color: #424242;  border-color: #424242;"/>
+			<column label="Winner" style="background-color: #424242;  border-color: #424242;"/>
+			<column label="Id" style="background-color: #424242;  border-color: #424242;"/>
+			<column label="Date" style="background-color: #424242; border-color: #424242;"/>
+			
+		</columns>
+		<rows>
+			<row>	
+			
+			</row>
+		</rows>
+	</grid>
+	</window>
+</zk>

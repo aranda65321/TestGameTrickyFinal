@@ -1,0 +1,100 @@
+.text-whitesmoke {
+  color: whitesmoke;
+  
+}
+
+.t-align {
+  text-align:center;
+}
+
+.text-darkyellow {
+  color: rgba(255, 235, 59, 0.432);
+}
+
+ .myGridWithNoBorder tr.z-row td.z-row-inner { border-right: 0px #CCC; }
+.row-text{
+	 background-color: #424242;
+}
+.container-content {
+  background-color: #424242;
+  color: inherit;
+  padding: 15px 20px 20px 20px;
+  border-color: #ffeb3b;
+  border-image: none;
+  border-style: solid solid none;
+  border-width: 0px 0;
+}
+
+/* Backgrounds */
+
+.main-bg {
+  background: #424242;
+}
+
+/* Login & Register Pages*/
+
+.login-container {
+  max-width: 400px;
+  margin: 10% 0 auto 40%;
+  padding-top: 100px;
+}
+.login.login-container {
+  width: 300px;
+}
+
+.form-control,
+.border-line {
+  background-color: #5f5f5f;
+  background-image: none;
+  border: 1px solid #424242;
+  border-radius: 1px;
+  color: inherit;
+  display: block;
+  padding: 6px 12px;
+  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+  width: 100%;
+}
+.form-control:focus,
+.border-line:focus {
+  border-color: #ffeb3b;
+  background-color: #616161;
+  color: #e6e6e6;
+}
+.form-control,
+.form-control:focus {
+  box-shadow: none;
+}
+.form-control::-webkit-input-placeholder {
+  color: #bdbdbd;
+}
+.form-button {
+  background-color: rgba(255, 235, 59, 0.24);
+  border-color: rgba(255, 235, 59, 0.24);
+  color: #e6e6e6;
+}
+.form-button:hover,
+.form-button:focus,
+.form-button:active,
+.form-button.active,
+.form-button:active:focus,
+.form-button:active:hover,
+.form-button.active:hover,
+.form-button.active:focus {
+  background-color: rgba(255, 235, 59, 0.473);
+  border-color: rgba(255, 235, 59, 0.473);
+
+}
+.button-l {
+  width: 100% !important;
+}
+
+.bt_game{
+	margin:auto 60px;
+	font-size:40px;
+	width:100px;
+	height:100px;	
+	align:center;
+	background-color:#ffc947;
+	border-color:black;
+	
+}
